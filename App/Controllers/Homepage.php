@@ -13,8 +13,10 @@ class Homepage extends Controller{
 
     public function index(){
         $data = [
-            'title' => 'Template',
-            'page' => 'homepage'
+            'page' => 'Name of the page',
+            'title' => 'This is the home page title',
+            'meta_keywords' => 'Meta key words of the page',
+            'meta_description' => 'Meta description of the page',
           ];
 
         $this->view('homepage/index', $data);

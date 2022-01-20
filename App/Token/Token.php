@@ -1,5 +1,5 @@
 <?php
-namespace template\App\Token;
+namespace Template\App\Token;
 
 /**
  * Unique random tokens
